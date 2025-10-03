@@ -2,6 +2,7 @@ import React from 'react';
 import Daddy from './Daddy';
 import Uncle from './Uncle';
 import Aunty from './Aunty';
+import FamilyBusinessIncome from './FamilyBusinessIncome';
 
 const GrandPaa = ({asset}) => {
     return (
@@ -11,6 +12,7 @@ const GrandPaa = ({asset}) => {
                 <Daddy asset = {asset}></Daddy>
                 <Uncle asset={asset}></Uncle>
                 <Aunty></Aunty>
+                <FamilyBusinessIncome></FamilyBusinessIncome>
             </section>
         </div>
     );
