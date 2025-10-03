@@ -1,4 +1,5 @@
 import './App.css'
+import FamilyTree from './components/FamilyTree'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
       
       <h2>React Family Component Tree Structure</h2>
       
+      <FamilyTree></FamilyTree>
     </>
   )
 }
